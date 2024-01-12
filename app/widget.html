@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="./css/" />
+    <script src="./js/lib/ZohoEmbededAppSDK.min.js"></script>
+    <script src="./js/custom.js"></script>
+    <script src="./js/jquery-min.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="blockQuote"></div>
+
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">From</th>
+          <th scope="col">To</th>
+          <th scope="col">Text</th>
+          <th scope="col">Time</th>
+        </tr>
+      </thead>
+      <tbody id="sms_singleLine2">
+        <!-- where the appended data will appear in the html -->
+      </tbody>
+    </table>
+
+    <script type="text/javascript">
+      $(document).ready(function () {
+        initializeWidget();
+      });
+    </script>
+  </body>
+</html>
